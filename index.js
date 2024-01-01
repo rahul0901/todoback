@@ -4,6 +4,12 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import morgan from 'morgan';
+// const express = require('express');
+// const route = require('./Routers/index.js');
+// const mongoose = require('mongoose');
+// const dotenv = require('dotenv');
+// const cors = require('cors');
+// const morgan = require('morgan')
 
 const api = express();
 dotenv.config();
